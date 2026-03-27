@@ -124,11 +124,11 @@ export default function VersionSelector({
           <ul className="space-y-2 text-gray-700 text-sm">
             <li>
               <strong>前測 (Pretest)：</strong>
-              在第二週課程開始前進行，用於評估學生的初始詞彙知識
+              在第一週課程開始前進行，用於評估學生的初始詞彙知識
             </li>
             <li>
               <strong>立即後測 (Immediate Posttest)：</strong>
-              在第二週課程結束時進行，用於評估課程對詞彙學習的即時效果
+              在第一週課程結束時進行，用於評估課程對詞彙學習的即時效果
             </li>
             <li>
               <strong>延遲後測 (Delayed Posttest)：</strong>

@@ -16,11 +16,11 @@ interface QuizInstructionsProps {
 const testTypeInfo: Record<QuizType, { name: string; description: string }> = {
   pretest: {
     name: '前測 (Pretest)',
-    description: '第二週課程開始前進行',
+    description: '第一週課程開始前進行',
   },
   immediate_posttest: {
     name: '立即後測 (Immediate Posttest)',
-    description: '第二週課程結束時進行',
+    description: '第一週課程結束時進行',
   },
 };
 

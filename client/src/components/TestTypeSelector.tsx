@@ -42,7 +42,7 @@ export default function TestTypeSelector({ onSelectTestType }: TestTypeSelectorP
           GEPT 詞彙測驗
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          第二週 - 請選擇您要進行的測驗類型
+          第一週 - 請選擇您要進行的測驗類型
         </p>
       </motion.div>
 
@@ -66,7 +66,7 @@ export default function TestTypeSelector({ onSelectTestType }: TestTypeSelectorP
             </h3>
 
             <p className="text-sm text-gray-700 mb-6">
-              第二週課程開始前進行
+              第一週課程開始前進行
             </p>
 
             <div className="text-xs text-gray-600 mb-6 bg-white bg-opacity-70 p-3 rounded">
@@ -106,7 +106,7 @@ export default function TestTypeSelector({ onSelectTestType }: TestTypeSelectorP
             </h3>
 
             <p className="text-sm text-gray-700 mb-6">
-              第二週課程結束前進行
+              第一週課程結束前進行
             </p>
 
             <div className="text-xs text-gray-600 mb-6 bg-white bg-opacity-70 p-3 rounded">
@@ -138,11 +138,11 @@ export default function TestTypeSelector({ onSelectTestType }: TestTypeSelectorP
           <ul className="space-y-2 text-gray-700 text-sm">
             <li>
               <strong>前測 (Pretest)：</strong>
-              在第二週課程開始前進行，用於評估學生的初始詞彙知識
+              在第一週課程開始前進行，用於評估學生的初始詞彙知識
             </li>
             <li>
               <strong>立即後測 (Immediate Posttest)：</strong>
-              在第二週課程結束時進行，用於評估課程對詞彙學習的即時效果
+              在第一週課程結束時進行，用於評估課程對詞彙學習的即時效果
             </li>
             <li className="pt-2 border-t border-amber-300">
               選擇測驗類型後，請選擇您的班級和學號以開始測驗。
