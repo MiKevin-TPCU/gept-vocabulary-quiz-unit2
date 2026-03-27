@@ -16,67 +16,67 @@ export const quizVersions: Record<string, QuizVersion> = {
   pretest: {
     name: 'pretest',
     label: '前測 (Pretest)',
-    description: '第二週課程開始前 - 10 分鐘內完成',
+    description: '第一週課程開始前 - 10 分鐘內完成',
     questions: [
       {
         id: 1,
-        sentence: "The sunset over the ocean was absolutely (1)_____.",
-        options: ["beautiful", "dangerous", "boring", "simple"],
-        correctAnswer: "beautiful"
+        sentence: "Tom is a famous (1)_____. He loves to draw pictures and tell a good story through his art.",
+        options: ["artist", "adventure", "Germany", "sheet"],
+        correctAnswer: "artist"
       },
       {
         id: 2,
-        sentence: "My best (2)_____ and I have known each other since elementary school.",
-        options: ["teacher", "friend", "family", "neighbor"],
-        correctAnswer: "friend"
+        sentence: "He loves to draw pictures and tell a good (2)_____ through his art.",
+        options: ["bottom", "story", "bean", "trumpet"],
+        correctAnswer: "story"
       },
       {
         id: 3,
-        sentence: "She felt (3)_____ when she received the good news about her promotion.",
-        options: ["sad", "angry", "happy", "tired"],
-        correctAnswer: "happy"
+        sentence: "His drawings are usually very (3)_____, making everyone laugh when they see them.",
+        options: ["upstairs", "else", "two", "comic"],
+        correctAnswer: "comic"
       },
       {
         id: 4,
-        sentence: "The volunteers worked together to (4)_____ the elderly people in the community.",
-        options: ["hurt", "avoid", "ignore", "help"],
-        correctAnswer: "help"
+        sentence: "One day, Tom had to (4)_____ a big problem. He wanted to paint a picture of a rare bird.",
+        options: ["waitress", "oil", "bat", "face"],
+        correctAnswer: "face"
       },
       {
         id: 5,
-        sentence: "It is (5)_____ to eat healthy food and exercise regularly.",
-        options: ["difficult", "impossible", "important", "unusual"],
-        correctAnswer: "important"
+        sentence: "He wanted to paint a picture of a rare bird, but the bird liked to (5)_____ in the tall trees.",
+        options: ["eat", "teach", "hide", "succeed"],
+        correctAnswer: "hide"
       },
       {
         id: 6,
-        sentence: "Children (6)_____ new things every day at school.",
-        options: ["forget", "learn", "ignore", "avoid"],
-        correctAnswer: "learn"
+        sentence: "Tom walked (6)_____ the forest for hours, trying to find it. He didn't want the bird to fool him.",
+        options: ["east", "hardly", "yeah", "around"],
+        correctAnswer: "around"
       },
       {
         id: 7,
-        sentence: "She (7)_____ spending time with her family more than anything else.",
-        options: ["hate", "dislike", "love", "avoid"],
-        correctAnswer: "love"
+        sentence: "He didn't want the bird to (7)_____ him by flying away just when he was ready to paint.",
+        options: ["hold", "fool", "cure", "maintain"],
+        correctAnswer: "fool"
       },
       {
         id: 8,
-        sentence: "He plays (8)_____ every evening and dreams of becoming a professional musician.",
-        options: ["sports", "games", "music", "dance"],
-        correctAnswer: "music"
+        sentence: "Suddenly, he noticed a small (8)_____ in the leaves. The bird was there!",
+        options: ["change", "stick", "lake", "novel"],
+        correctAnswer: "change"
       },
       {
         id: 9,
-        sentence: "The (9)_____ in this national park is breathtaking with its mountains and forests.",
-        options: ["building", "city", "nature", "street"],
-        correctAnswer: "nature"
+        sentence: "This was his chance to win the (9)_____ art competition. He quickly painted the bird.",
+        options: ["yearly", "central", "careful", "heavy"],
+        correctAnswer: "yearly"
       },
       {
         id: 10,
-        sentence: "She loves to (10)_____ to different countries and experience new cultures.",
-        options: ["stay", "work", "travel", "study"],
-        correctAnswer: "travel"
+        sentence: "He won the first prize of (10)_____ thousand dollars. It was the best day of his life!",
+        options: ["return", "sixty", "square", "ground"],
+        correctAnswer: "sixty"
       }
     ]
   },
@@ -84,67 +84,67 @@ export const quizVersions: Record<string, QuizVersion> = {
   immediate_posttest: {
     name: 'immediate_posttest',
     label: '立即後測 (Immediate Posttest)',
-    description: '第二週課程最後 - 10 分鐘內完成',
+    description: '第一週課程最後 - 10 分鐘內完成',
     questions: [
       {
         id: 1,
-        sentence: "The (1)_____ garden in the park attracts visitors from all over the city.",
-        options: ["beautiful", "dangerous", "boring", "simple"],
-        correctAnswer: "beautiful"
+        sentence: "Sarah is a talented (1)_____ who creates beautiful sculptures.",
+        options: ["artist", "adventure", "Germany", "sheet"],
+        correctAnswer: "artist"
       },
       {
         id: 2,
-        sentence: "My (2)_____ invited me to join his book club next month.",
-        options: ["teacher", "friend", "family", "neighbor"],
-        correctAnswer: "friend"
+        sentence: "Every (2)_____, the museum holds a special exhibition to showcase new artworks.",
+        options: ["yearly", "central", "careful", "heavy"],
+        correctAnswer: "yearly"
       },
       {
         id: 3,
-        sentence: "The team felt (3)_____ after winning the championship game.",
-        options: ["sad", "angry", "happy", "tired"],
-        correctAnswer: "happy"
+        sentence: "The children laughed at the (3)_____ performance by the clown.",
+        options: ["upstairs", "else", "two", "comic"],
+        correctAnswer: "comic"
       },
       {
         id: 4,
-        sentence: "The organization aims to (4)_____ people in need through various programs.",
-        options: ["hurt", "avoid", "ignore", "help"],
-        correctAnswer: "help"
+        sentence: "She had to (4)_____ many challenges to become a successful artist.",
+        options: ["waitress", "oil", "bat", "face"],
+        correctAnswer: "face"
       },
       {
         id: 5,
-        sentence: "Good communication skills are (5)_____ for success in any career.",
-        options: ["difficult", "impossible", "important", "unusual"],
-        correctAnswer: "important"
+        sentence: "The shy student would (5)_____ in the corner during group discussions.",
+        options: ["eat", "teach", "hide", "succeed"],
+        correctAnswer: "hide"
       },
       {
         id: 6,
-        sentence: "Students (6)_____ about different cultures through international exchange programs.",
-        options: ["forget", "learn", "ignore", "avoid"],
-        correctAnswer: "learn"
+        sentence: "The teacher walked (6)_____ the classroom, checking each student's work.",
+        options: ["east", "hardly", "yeah", "around"],
+        correctAnswer: "around"
       },
       {
         id: 7,
-        sentence: "He (7)_____ reading books and often spends his weekends in the library.",
-        options: ["hate", "dislike", "love", "avoid"],
-        correctAnswer: "love"
+        sentence: "Don't let anyone (7)_____ you into making a decision you'll regret.",
+        options: ["hold", "fool", "cure", "maintain"],
+        correctAnswer: "fool"
       },
       {
         id: 8,
-        sentence: "The concert featured (8)_____ from famous composers around the world.",
-        options: ["sports", "games", "music", "dance"],
-        correctAnswer: "music"
+        sentence: "The old book told an interesting (8)_____ about ancient civilizations.",
+        options: ["bottom", "story", "bean", "trumpet"],
+        correctAnswer: "story"
       },
       {
         id: 9,
-        sentence: "Protecting the (9)_____ is everyone's responsibility for future generations.",
-        options: ["building", "city", "nature", "street"],
-        correctAnswer: "nature"
+        sentence: "The company decided to (9)_____ its business strategy to stay competitive.",
+        options: ["change", "stick", "lake", "novel"],
+        correctAnswer: "change"
       },
       {
         id: 10,
-        sentence: "Many people (10)_____ abroad to broaden their horizons and gain new experiences.",
-        options: ["stay", "work", "travel", "study"],
-        correctAnswer: "travel"
+        sentence: "The lottery winner received (10)_____ thousand dollars as the grand prize.",
+        options: ["return", "sixty", "square", "ground"],
+        correctAnswer: "sixty"
       }
     ]
   }
